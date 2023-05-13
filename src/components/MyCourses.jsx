@@ -22,7 +22,7 @@ function MyCourses(){
             </div>
             <div style={{display: "flex", border:"1px solid black"}} className="mx-2">
                 <div>
-                    <video width="300px" controls className="mx-3 my-3">
+                    <video width="300px" autoPlay muted className="mx-3 my-3">
                         <source src={vidio}/>
                     </video>
                 </div>
